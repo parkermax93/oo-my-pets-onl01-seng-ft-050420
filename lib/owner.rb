@@ -29,6 +29,6 @@ class Owner
   end  
   
   def cats 
-    Cat.all
+    Cat.all.select do
   end
 end
