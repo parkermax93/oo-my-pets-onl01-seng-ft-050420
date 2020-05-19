@@ -39,7 +39,6 @@ class Owner
   def cats
     Cat.all.select do
   end
-  end
   
   def dogs
     Dog.all.select do 
