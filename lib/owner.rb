@@ -39,4 +39,8 @@ class Owner
       dog.owner == self 
     end
   end
+  
+  def buy_cat(cat_name)
+    @pets << self.Cat.new(cat_name)
+  end
 end
